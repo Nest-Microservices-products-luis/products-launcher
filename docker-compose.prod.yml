@@ -36,7 +36,7 @@ services:
     build:
       context: ./products-ms
       dockerfile: dockerfile.prod
-    image: southamerica-west1-docker.pkg.dev/tienda-microservice/image-registry/products-ms-prod
+    image: southamerica-west1-docker.pkg.dev/tienda-microservice/image-registry/products-ms
     environment:
       - PORT=3001
       - NATS_SERVERS=nats://nats-server:4222
